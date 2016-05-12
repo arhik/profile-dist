@@ -1,0 +1,409 @@
+<template>
+	<div class="main" style="margin:0px 0px 0px 92px;">
+		<div class="ui top attached tabular menu" ref="tabmenu">
+  			<a class="item" data-tab="AboutMe">About Me</a>
+  			<a class="active item" data-tab="Resume">Resume</a>
+  			<a class="item" data-tab="Portfolio">Portfolio</a>
+		</div>
+		<div class="ui bottom attached tab segment" data-tab="AboutMe">
+		 
+		 	<!-- <div class="ui top attached secondary red inverted segment menu" > <span> Profile - About Me</span></div> -->
+				<div class="ui bottom attached segment">
+					<div class="ui two column stackable grid">
+					<div class="ui twelve wide column">
+						<p class="ui segment" > Hello I am karthik. I am a computer geek and machine learning enthusiast.
+						<br/>
+						I am into computer engineering</p>
+					</div>
+					<div class="ui column">
+						<div class="ui card">
+						  <div class="image">
+						    <img src="./images/5755530.jpg">
+						  </div>
+						  <div class="content">
+						    <a class="header">Karthik Katipally</a>
+						    <div class="meta">
+						      <span class="date">Joined in 2013</span>
+						    </div>
+						    <div class="description">
+						      Karthik is a Computer Engineer.
+						    </div>
+						  </div>
+						  <div class="extra content">
+						    <a>
+						      <i class="user icon"></i>
+						      Machine Learning enthusiast.
+						    </a>
+						    <a class="square linkedin icon"> </a>
+						  </div>
+						</div>
+					</div>
+				</div>
+				</div>
+		</div>
+		<div class="ui bottom attached active tab segment" data-tab="Resume">
+			<div class="ui sixteen wide column">
+				<div class="ui container">
+					<div class="ui segment">
+						<div class="ui grid">
+							<div class="ui row">
+								<div class="ten wide column">
+									<h1 class="ui huge header">
+										Karthik Raj Katipally
+									</h1>
+								</div>
+								<div class="six wide column">
+									karthik.katipalli@gmail.com
+								</div>
+							</div>
+							<div class="ui grey row">
+								<div class="twelve wide column">
+									Education
+								</div>
+								<div class="four wide column">Aggregate</div>
+							</div>
+							<div class="ui row" >
+								<div class="four wide column">
+									2016(expected)
+								</div>
+								<div class="eight wide column">
+									Master of computer Engineering
+								</div>
+								<div class="four wide column">GPA: 3.83</div>
+							</div>
+							<div class="ui row">
+								<div class="four wide column">
+									2012
+								</div>
+								<div class="eight wide column">
+									Bachelor of technology in "Electronics and Communication Engineering"
+								</div>
+								<div class="four wide column">GPA: 3.4</div>
+							</div>
+							<div class="ui grey row">
+								<div class="column">Certifications</div>
+							</div>
+							<div class="ui row">
+								<div class="eight wide column">
+									Proficiency in Parallel Programming
+								</div>
+								<div class="eight wide column">
+									Certified by Udacity, Duration: self paced <br\>
+									Date : October 22 - 2013
+
+								</div>
+							</div>
+
+							<div class="ui grey row">
+								<div class="column">Skills</div>
+							</div>
+
+							<div class="ui row">
+								<div class="column">
+									<div class="ui horizontally divided grid">
+									<div class="six wide column">
+										Programming languages
+									</div>
+									<div class="ten wide column">
+										<div class="ui vertically divided grid">
+											<div class="ui row" style="padding:0">
+												<div class="four wide column">
+													Python
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny progress" data-percent=80 ref="python">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" data-percent=80 ref="pythonExp">
+													  <div class="bar"></div>
+													  <div class="label">Experience</div>
+													</div>
+												</div>
+											</div>
+											<div class="ui row" style="padding:0">
+												<div class="four wide column">
+													C
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="C">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="CExp">
+													  <div class="bar"></div>
+													  <div class="label">Experience</div>
+													</div>
+												</div>
+											</div>
+											<div class="ui row" style="padding:0">
+												<div class="four wide column">
+													C++
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="cpp">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="cppExp">
+													  <div class="bar"></div>
+													  <div class="label">Experience</div>
+													</div>
+												</div>
+											</div>
+											<div class="ui row" style="padding:0">
+												<div class="four wide column">
+													Java
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="java">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="javaExp">
+													  <div class="bar"></div>
+													  <div class="label">Experience</div>
+													</div>
+												</div>
+											</div>
+											<div class="ui row" style="padding:0">
+												<div class="four wide column">
+													Go
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="go">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="goExp">
+													  <div class="bar"></div>
+													  <div class="label">Experience</div>
+													</div>
+												</div>
+											</div>
+											<div class="ui row" style="padding:0">
+												<div class="four wide column">
+													JavaScript
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="js">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="jsExp">
+													  <div class="bar"></div>
+													  <div class="label">Experience</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+
+
+							<div class="ui grey row">
+								<div class="column">Masters Project</div>
+							</div>
+							<div class="ui row">
+								<div class="ten wide column">Design and Test of Open-source software reliability tool.</div>
+								<div class="six wide column"> year 2016</div>
+							</div>
+							<div class="ui row">
+								<div class="sixteen wide column">
+									<div class="ui justified container">
+										An Open-source web-based software reliability tool (SRT) as a service has been developed with an architecture to enable
+										contributions from the international research community. The intuition is to pick a new software reliability growth model
+										(SRGM) automatically from the definitions alone and integrate it into the tool after rigorous testing of a model on standard data-
+										sets, enabling the community to define a common research agenda. The repository is currently hosted on github.
+										<div class="ui list">
+											<div class="item">
+												<i class="right triangle icon"></i>
+												A docker image of the application is downloadable from the docker images repository.
+											</div>
+											<div class="item">
+												<i class="right triangle icon"></i>
+												R programming, R shiny, R shiny-server, nginx load balancer, dockers. REST API using Open-CPU.
+											</div>
+											<div class="item">
+												<i class="right triangle icon">
+												</i>
+												Platform: Linux.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="ui grey row">
+								<div class="column">Masters CourseWork Projects</div>
+							</div>
+							<div class="ui internally celled grid ">
+								<div class="ten wide column">Body Area Network</div>
+								<div class="six wide column"> year 2016</div>
+								<div class="sixteen wide column">
+									<div class="ui justified container">
+										Context-aware Android application to augment body sensor networks.
+										<div class="ui list">
+											<div class="item">
+												<i class="right triangle icon"></i>
+												Inferring the context the user is in helps to program different applications to augment user experience.
+											</div>
+											<div class="item">
+												<i class="right triangle icon"></i>
+												Tools : Android, Blue-tooth LE, AT328p uC, Sensors, ibeacon protocol.
+											</div>
+											<div class="item">
+												<i class="right triangle icon">
+												</i>
+												Platform: Linux.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="ui internally celled grid">
+								<div class="ten wide column">Computer Architecture</div>
+								<div class="six wide column"> year 2015</div>
+								<div class="sixteen wide column">
+									<div class="ui justified container">
+										Benchmarking of simulated custom CPU's with different branch-prediction algorithms, using a simulation framework gem5.
+										<div class="ui list">
+											<div class="item">
+												<i class="right triangle icon"></i>
+												Simulation of Alpha, x86, ARM Microprocessors with different configurations for benchmarking of branch
+												prediction algorithms. Gem5 is C++ and python framework which simulates a custom CPU.
+											</div>
+											<div class="item">
+												<i class="right triangle icon">
+												</i>
+												Platform: Linux.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="ui internally celled grid">
+								<div class="ten wide column">Computer Systems Performance Evaluation</div>
+								<div class="six wide column"> year 2014</div>
+
+								<div class="sixteen wide column">
+									<div class="ui justified container">
+										Systems with State Dependent Standby Mode Transfer and Periodic Inspections
+										<div class="ui animated list">
+											<div class="item">
+												<i class="right triangle icon"></i>
+												A hybrid version of petri-nets framework (python-snakes)and event based DES (Discrete Event Simulation)
+												framework (Simpy) is implemented for evaluating availability of dynamic HOT, COLD and WARM Standby
+												elements, and cost optimization is obtained by ordering those elements.
+											</div>
+											<div class="item">
+												<i class="right triangle icon">
+												</i>
+												Platform: Linux.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="ui internally celled grid">
+								<div class="ui row">
+									<div class="ten wide column">Fault Tolerance</div>
+									<div class="six wide column"> year 2014</div>
+								</div>
+								<div class="sixteen wide column">
+									<div class="ui justified container">
+										Monte-Carlo simulation of probabilistic competing failures in Body sensor networks.
+										<div class="ui list">
+											<div class="item">
+												<i class="right triangle icon"></i>
+												Proved that the analytical values of a PhD student's work are correct. They turned out to be correct and the
+												paper had been published in an IEEE journal. It was challenging but good collaboration experience.
+											</div>
+											<div class="item">
+												<i class="right triangle icon">
+												</i>
+												Platform : Linux, Programming Language : Python.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="ui internally celled grid">
+								<div class="ui row">
+									<div class="ten wide column">Operating Systems</div>
+									<div class="six wide column"> year 2014</div>
+								</div>
+								<div class="sixteen wide column">
+									<div class="ui justified container">
+										Secure virtual Environments with collaborative support
+										<div class="ui list">
+											<div class="item">
+												<i class="right triangle icon"></i>
+												Improved security with fault-tolerant behavior of cascaded virtual environments for collaboration purposes is
+												proved in this project. Docker runs the tornado server which serves the Ipython application to the end users.
+											</div>
+											<div class="item">
+												<i class="right triangle icon">
+												</i>
+												Platform : Linux, Tools : Vagrant, Docker, Puppet, Ipython, Tornado, ZeroMQ.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="ui internally celled grid">
+								<div class="ui row">
+									<div class="ten wide column">Wireless Sensor Networks</div>
+									<div class="six wide column"> year 2014</div>
+								</div>
+								<div class="sixteen wide column">
+									<div class="ui justified container">
+										Energy efficient Data Aggregation of Remote Sensor.
+										<div class="ui list">
+											<div class="item">
+												<i class="right triangle icon"></i>
+												Aggregate data of remote sensor's average temperature and max light Intensity in an energy efficient way.
+												Team consists of three members including me and could deploy it successfully.
+											</div>
+											<div class="item">
+												<i class="right triangle icon">
+												</i>
+												Platform: Tiny-OS, Hardware : Micaz-Iris.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui bottom attached tab segment" data-tab="Portfolio">
+			
+		</div>
+		
+	</div>
+</template>

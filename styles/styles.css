@@ -1,0 +1,37 @@
+body{
+  margin:0;
+}
+
+.ui.label{
+  border-radius: 0;
+}
+
+.ui.attached.label{
+  margin:0;
+  border-radius:0;
+  border:none;
+}
+
+.ui.segment{
+  border-radius:0;
+}
+
+.ui.visible.labeled.icon.very.thin.vertical.sidebar.menu{
+}
+
+.top.attached.ui.segment{
+  border-radius:0;
+  border-style:none;
+}
+
+.bottom.attached.ui.segment{
+  border-radius: 0;
+}
+
+.ui.card {
+  border-radius:0;
+}
+.ui.card > .image > img{
+  border-radius:0;
+}
+
